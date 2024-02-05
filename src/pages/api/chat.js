@@ -1,5 +1,5 @@
 // Aquí añade tu API_KEY, porque esta no funcionará
-const OPENAI_API_KEY = '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'
+const OPENAI_API_KEY = 
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') return res.status(405).end()
